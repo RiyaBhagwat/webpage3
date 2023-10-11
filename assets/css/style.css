@@ -51,3 +51,81 @@ header{
 .banner aside input[type]{
    text-align: center;
 }
+.feature{
+    width: 100%;
+    height: auto;
+    display: flex;
+    color: #022D7C;
+    padding: 60px 100px;
+    justify-content: space-between;
+}
+.feature div{
+    width: 30%;
+    height: 400px;
+}
+.feature div h2{
+    font-size: 40px;
+    margin-bottom: 7px;
+}
+.feature div img{
+    width: 450px;
+    height: 250px;
+}
+.feature div p{
+    margin-top: 7px;
+    font-size: 18px;
+    text-align: justify;
+}
+.about{
+    width: 100%;
+    height: auto;
+    padding: 60px 300px;
+    background-color: #022D7C;
+    color: #fff;
+    text-align: center;
+}
+.about h2{
+    font-size: 33px;
+    margin-bottom: 7px;
+}
+.about p{
+     font-size: 18px;
+     font-weight: normal;
+}
+.about button{
+    color: #fff;
+    font-weight: bold;
+    background: #022D7C;
+    border: 2px solid #fff;
+    padding: 15px 100px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.service{
+    width: 100%;
+    height: auto;
+    padding: 0px 100px;
+}
+.service .upper, .service .lower{
+    display: flex;
+    align-items: center;
+}
+.service .image, 
+.service .content{
+    width: 50%;
+}
+.service .image img{
+    width: 740px;
+    height: 500px;
+}
+.service p, h3{
+    font-size: 25px;
+}
+footer{
+    background-color: #022D7C;
+    color: #fff;
+    margin-top: 50px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
